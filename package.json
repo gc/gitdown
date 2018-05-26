@@ -1,9 +1,10 @@
 {
   "name": "gitdown",
   "version": "0.1.0",
-   "homepage": "https://gc.github.io/gitdown",
+  "homepage": "https://gc.github.io/gitdown",
   "private": true,
   "dependencies": {
+    "gh-pages": "^1.1.0",
     "react": "^16.4.0",
     "react-dom": "^16.4.0",
     "react-markdown": "^3.3.2",
