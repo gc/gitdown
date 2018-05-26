@@ -12,11 +12,19 @@ class App extends Component {
     this.setState({markdown});
   }
 
+  link(text, link) {
+    return (
+      <a className="link" href={link} target="_blank" rel="noopener noreferrer">
+        {text}
+      </a>
+    );
+  }
+
   render() {
     return (
       <React.Fragment>
-        <a className="link" href="https://github.com/gc/gitdown" target="_blank">Github</a> /
-        <a className="link" href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet" target="_blank">Guide</a>
+        {this.link('Github', 'https://github.com/gc/gitdown')} /
+        {this.link('Guide', 'https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet')}
         <div bp="grid 6" className="App">
             <textarea value={this.state.markdown} onChange={this.handleChange} />
             <ReactMarkdown source={this.state.markdown} className="markdown-body"/>
