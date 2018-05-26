@@ -1,0 +1,9 @@
+body, html, #root, .App {
+  margin: 0px;
+  height: 100%;
+  width: 100%;
+}
+
+body {
+    padding: 45px;
+}
