@@ -7,3 +7,8 @@ body, html, #root, .App {
 body {
   padding: 45px;
 }
+
+.link {
+  font-size: 13px;
+  line-height: 20px;
+}

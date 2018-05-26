@@ -14,10 +14,14 @@ class App extends Component {
 
   render() {
     return (
+      <React.Fragment>
+        <a className="link" href="https://github.com/gc/gitdown">Github</a> /
+        <a className="link" href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet">Guide</a>
         <div bp="grid 6" className="App">
             <textarea value={this.state.markdown} onChange={this.handleChange} />
             <ReactMarkdown source={this.state.markdown} className="markdown-body"/>
         </div>
+      </React.Fragment>
     );
   }
 }
