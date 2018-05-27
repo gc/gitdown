@@ -1,7 +1,7 @@
 {
   "name": "gitdown",
   "version": "0.1.0",
-  "homepage": "https://gc.github.io/gitdown",
+  "homepage": "https://gitdown.js.org/",
   "private": true,
   "dependencies": {
     "gh-pages": "^1.1.0",
