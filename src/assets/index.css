@@ -1,19 +1,16 @@
-body, html, #root, .App {
+body, html, #root {
   margin: 0px;
   height: 100%;
   width: 100%;
 }
 
 body {
+  box-sizing: border-box;
   padding: 45px;
 }
 
-.link {
-  font-size: 13px;
-  line-height: 20px;
-}
-
-.markdown-body {
+.md {
   overflow-x: hidden;
-  padding-top: 0px!important;
+  flex: 1;
+  flex-shrink: 1;
 }
